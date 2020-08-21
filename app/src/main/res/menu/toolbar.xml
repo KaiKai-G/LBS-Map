@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/backup"
+        android:icon="@drawable/shandian"
+        android:title="Backup"
+        app:showAsAction="always"
+        />
+    <item
+        android:id="@+id/delete"
+        android:title="Delete1"
+        android:icon="@drawable/delete1"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/setting"
+        android:title="Setting"
+        app:showAsAction="never"/>
+    <!-- always 永远显示,ifRoom 屏幕空间够就显示,不够就显示在菜单,never永远显示在菜单-->
+
+</menu>
